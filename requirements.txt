@@ -1,0 +1,18 @@
+# Core dependencies
+torch>=1.9.0
+transformers>=4.11.0
+pandas>=1.3.0
+numpy>=1.20.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=0.24.0
+tqdm>=4.62.0
+
+# Structure-aware model requirements
+geoopt>=0.5.0  # For hyperbolic geometry operations
+
+# Data processing
+umap-learn>=0.5.1  # For visualization
+
+# Optional dependencies
+jupyterlab>=3.0.0  # For running notebook experiments
